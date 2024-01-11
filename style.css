@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin: 10px;
+}
+
+.months-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.month {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.today {
+    background-color: #e6e6e6;
+}
+
+.day-cell {
+    position: relative;
+}
+
+.day-number {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.day-content {
+    margin-top: 25px;
+}
